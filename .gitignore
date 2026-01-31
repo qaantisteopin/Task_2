@@ -1,0 +1,40 @@
+# Байткод и кеши Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+venv/
+.venv/
+env/
+.env/
+.env
+
+# Логи
+*.log
+
+# Результаты тестов / coverage
+.pytest_cache/
+.cache/
+.coverage*
+htmlcov/
+
+# Сборка и дистрибутивы
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# База и локальные данные (по ситуации)
+*.sqlite3
+*.db
+*.sqlite
